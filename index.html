@@ -2,13 +2,14 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name ="viewport" content="width=device-width, initial-scale=1">
-	<title>Joseph Joseph - Developer</title>
-		<style type="text/css">
-		body{
-			margin: 0px;
-			padding: 0px;
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Joseph John - Developer</title>
+
+	<style type="text/css">
+		body {
+			margin: 0;
 		}
+
 		nav{
 			width: 100%;
 			height: 60px;
@@ -16,20 +17,19 @@
 			justify-content: center;
 			align-items: center;
 			position: fixed;
-
 		}
 		nav section{
-			color: white;
 			margin: 0 35px;
-
+			color: white;
 		}
+
 		.hero {
 			background: #2e2e2e;
 			width: 100%;
 			height: 100vh;
 			display: flex;
-			justify-content: center;
 			align-items: center;
+			justify-content: center;
 			flex-direction: column;
 		}
 
@@ -37,86 +37,133 @@
 			width: 250px;
 			height: 250px;
 			border-radius: 50%;
+        }
 
-		}
+        .hero p {
+        	color: white;
+        	font-size: 20px;
+        }
 
-		.hero p {
-			color: white;
-			font-size: 20px;
-		}
-2
-		.container{
-			margin: 0 12em;
-			text-align: center;
-		}
+        .container {
+        	margin: 4em 12em;
+        	/*text-align: center;*/
+        }
 
+        section > h1, section > p {
+        	text-align: center;
+        }
+
+        .skills {
+        	display: flex;
+        	justify-content: space-around;
+        	text-align: center;
+        	align-items: center;
+        }
+
+        .skill{
+        	width: 200px;
+        	text-align: center;
+        	margin: 10px;
+        	padding: 10px 20px;
+        	background: #f1f1f1;
+        	border-radius: 10px;
+        }
+
+        /*.container.other{
+        	background: #2e2e2e;
+        	width: 100%;
+        	height: 70vh;
+        }*/
+
+        footer {
+        	width: 100%;
+        	display: flex;
+        	justify-content: center;
+        	align-items: center;
+        	background: #2e2e2e;
+        	margin: 15px 0;
+        }
+
+        footer > section {
+        	width: 50%;
+        }
+
+        input, textarea {
+        	width: 100%;
+        	padding: 10px;
+        	margin-bottom: 5px;
+        	font-size: 15px;
+        	border-radius: 5px;
+        	background: #f9f9f9;
+        	color: #2e2e2e;
+
+        }
 	</style>
 </head>
 <body>
-	<nav style="background: black;">
+	<nav style = "background: black;">
 		<section><b>JOSEPH</b></section>
-		<section><b>||</b></section>
+		<section><b> || </b></section>
 		<section><b>WHO</b></section>
-</nav>
-<main>
-	<header class="hero">
-		<img src="Joey.jpg">
-		<p>Hello, I am Joseph, a frontend developer </p>
-	</header>
+	</nav>
 
-	<section class="container">
-		<h1>WHO</h1>
-		<p>I am Joseph, an aspirng expert software engineer and game developer. Currently, I have profound knowledge in frontend web development, desktop application, and data integration in Java programming language; also I am proficient with User Interface and User Experience design. I am twenty two years old, a student from KASU, 300 level, studying Computer Science. I live in Kaduna state. Currently, I have intermediate knowledge in flutter (mobile development) and programming with Python.
-I personally think programming in general is a form of writing as it largely involves putting little blocks of code to create an amazing software that will touch the world in a spectacular way and further push mankind forward and closer to attaining technological excellence and spread the positivity of programming deeper in the canvas of fields across the different disciplines in the world in other to simply make life better and more efficient. So, programming is not just combining different syntaxes to form some app, web page or whatever software you are developing, but at the very heart of it, the essence or impact of programming is to increase the ease of our everyday life.
-</p>
-	</section>
-
-	<section class="container other">
-		<h1>SKILLS</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-		<section class="skills">
-			<section class="skills">
-				<h2>HTML</h2>
-			</section>
-			<section class="skills">
-				<h2>CSS</h2>
-			</section class="skills">
-			<section>
-				<h2>JAVASCRIPT</h2>
-			</section>
+	<main>
+		<header class="hero">
+			<img src="Joey.jpg">
+			<p>Hello, I am Joseph, a Fullstack Developer</p>
+		</header>
+		<section class = "container"> 
+			<h1><center>WHO</center></h1>
+			<p><center>I am Joseph, an aspirng expert software engineer and game developer. Currently, I have profound knowledge in frontend web development, desktop application, and data integration in Java programming language; also I am proficient with User Interface and User Experience design. I am twenty two years old, a student from KASU, 300 level, studying Computer Science. I live in Kaduna state. Currently, I have intermediate knowledge in flutter (mobile development) and programming with Python. I personally think programming in general is a form of writing as it largely involves putting little blocks of code to create an amazing software that will touch the world in a spectacular way and further push mankind forward and closer to attaining technological excellence and spread the positivity of programming deeper in the canvas of fields across the different disciplines in the world in other to simply make life better and more efficient. So, programming is not just combining different syntaxes to form some app, web page or whatever software you are developing, but at the very heart of it, the essence or impact of programming is to increase the ease of our everyday life.</center></p>
 		</section>
-	</section>
 
+		<section class = "container other">
+          <h1><center>SKILLS</center></h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-	<section class="container">
-		<h1>PROJECTS</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-	</section>
+          <section class="skills">
+          	<section class="skill">
+          		<h2>HTML</h2>
+          	</section>
+          	<section class="skill">
+          		<h2>CSS</h2>
+          	</section>
+          	<section class="skill">
+          		<h2>JAVASCRIPT</h2>
+          	</section>
+          </section>
 
-	<section class="container other">
-		<h1>CONTACT ME</h1>
-		<section>
-			<form>
-				<input type="text" name="" placeholder="Enter Full Name">
-				<input type="text" name="" placeholder="name@example.com">
-				<textarea cols="1" rows="5">
-			</textarea>	
-			</form>
+		</section>
 
-		</section>		
+		<section class = "container">
+          <h1><center> PROJECT</center></h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</section>
+
 		
-	</section>
-</main>
+	</main>
+	<footer>
+          <section>
+          <h1 style="color: white;" >CONTACT ME</h1>
+          	<form>
+	          	<input type="text" name="" placeholder="Enter Full Name">
+	          	<input type="email" name="" placeholder="name@example.com">
+	          	<textarea cols="30" rows="5"></textarea>
+	          	<input type="button" name="" value="submit" style="width: 103%;">
+          </form>
+          </section>
+         
+		</footer>
+
 </body>
 </html>
